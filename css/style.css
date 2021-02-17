@@ -1,0 +1,29 @@
+  h1.logo  {
+    color: #FFF;
+    font-size: 3em;
+    margin-bottom: .3em;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  h1.title {
+    color: #FFF;
+    font-size: 10em;
+    align-content: center;
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+  }
+
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  body {
+  	background-color: #47CA6F;
+  }
+
+  #about {
+
+  }
