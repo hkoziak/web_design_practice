@@ -83,13 +83,24 @@
     font-family: 'Poppins', sans-serif;
   }
 
-  h2.article_name {
+  #about h2 {
       font-size: 1.5em;
+      text-align: center;
     }
 
   #about ul li{
     display: inline-block;
     width: 25%;
+
+    margin-left: 5%;
   }
 
-  
+  #about img{
+    width: 110%;
+    height: auto;
+  }
+
+  #about p{
+    font-size: 1em;
+    color: #FFF;
+  }
