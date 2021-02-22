@@ -5,6 +5,51 @@
     text-align: left;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
+
+    display: inline-block;
+    margin: 0;
+  }
+
+  header{
+    position: relative;
+    background: transparent;
+    z-index: 10;
+
+    padding: 25px 50px 25px 50px;
+  }
+
+  #header #nav{
+    display: inline-block;
+    position: absolute;  
+    z-index: 1;          
+    top: 50%;                       
+    transform: translate(0, -50%);
+
+    margin: 0;
+    margin-left: 30%;
+  }
+
+  #header #nav a{
+    margin-right: 30px;
+
+    
+  }
+
+  #header a{
+    display: inline-block;
+
+    /* How to put cart to the left ???*/
+
+    /* position: absolute;  
+    z-index: 2;          
+    top: 50%;   
+    right: 0%;                    
+    transform: translate(0, -50%); */
+  }
+
+  #main{
+    height: 100vh;
+    background-image: url("../img/home-section-backgr-1.jpg");
   }
 
   h1.title {
@@ -13,6 +58,19 @@
     align-content: center;
     text-decoration: none;
     font-family: 'Courgette', cursive;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-18%, -50%);
+  }
+
+  .amazing-flavor{
+    font-size: 0.2em;
+    color: antiquewhite;
+    position: absolute;
+    top: -10%;
+    left: 25%;
   }
 
   a {
@@ -21,10 +79,17 @@
   }
 
   body {
-  	background-color: #47CA6F;
+  	background-color: #53A16F;
     font-family: 'Poppins', sans-serif;
   }
 
   h2.article_name {
       font-size: 1.5em;
     }
+
+  #about ul li{
+    display: inline-block;
+    width: 25%;
+  }
+
+  
