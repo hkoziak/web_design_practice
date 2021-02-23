@@ -104,3 +104,14 @@
     font-size: 1em;
     color: #FFF;
   }
+
+  #gallery ul li{
+    display: inline-block;
+    width: 25%;
+    margin-left: 5%;
+  }
+
+  #gallery img{
+      width: 120%;
+      height: auto;
+  }
