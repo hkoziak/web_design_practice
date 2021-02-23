@@ -49,7 +49,6 @@
 
   #main{
     height: 100vh;
-    background-image: url("../img/home-section-backgr-1.jpg");
   }
 
   h1.title {
@@ -86,6 +85,7 @@
   #about h2 {
       font-size: 1.5em;
       text-align: center;
+      text-transform: uppercase;
     }
 
   #about ul li{
@@ -103,4 +103,48 @@
   #about p{
     font-size: 1em;
     color: #FFF;
+  }
+
+  #shop ul li{
+    display: inline-block;
+    width: 17%;
+
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+   #shop img{
+    width: 75%;
+    height: auto;
+    margin-bottom: 10%;
+  }
+
+  #shop h2{
+    font-size: 0.5em;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    text-transform: lowercase;
+    color: #fcffae;
+
+    margin-top: 8%;
+  }
+
+  #shop h3{
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  #shop h4{
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    margin-left: 19%;
+  }
+
+  #shop button{
+    margin-left: 20%;
   }
