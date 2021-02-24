@@ -159,3 +159,37 @@
       width: 120%;
       height: auto;
   }
+
+  #reviews h2{
+    font-size: 1em;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    text-transform: lowercase;
+    color: #fcffae;
+
+    margin-top: 6%;
+  }
+
+  #reviews h3{
+    font-size: 2.2em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+
+    margin-top: 2%;
+  }
+
+  #reviews p{
+    font-size: 1em;
+    text-align: center;
+    color: #FFF;
+    margin: 2% 17%;
+  }
+
+  #reviews h4{
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-bottom: 7%;
+  }
