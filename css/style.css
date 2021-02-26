@@ -79,6 +79,10 @@
       font-size: 1em;
       align-content: center;
       text-transform: uppercase;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
   #about ul li{
@@ -102,11 +106,6 @@
     height: auto;
   }
 
-  #about p{
-    font-size: 1em;
-    color: #FFF;
-  }
-
   
 #about ul li h2{
   margin-top: 15px;
@@ -114,9 +113,20 @@
 
 #about ul li p{
   margin-top: 10px;
-  text-align: center;
   margin-bottom: 10px;
+  
+  font-size: 1em;
+  color: #FFF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+  .about__ul{
+    display: flex;
+    justify-content: space-between;
+  }
 
   #shop ul li{
     display: inline-block;
