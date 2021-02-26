@@ -237,42 +237,40 @@ footer h3{
   }
 
   footer ul{
-    padding: 0 40% 0 40%;
     margin-top: 25px;
- 
+    padding: 0 45%;
+
+  }
+
+  .footer__ul{
+    display: flex;
+    justify-content: space-between;
   }
 
   footer ul li{
-    display: inline-block;
-
     color: #FFF;
   }
 
   footer ul li i.material-icons{
     font-size: 36px;
-    margin-left: 50px;
+
   }
 
   footer p{
-    position: relative;
-
-    padding-left: 30px;
     color: #FFF;
     text-transform: capitalize;
-    text-align: center;
     margin-top: 25px;
     margin-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   footer p i{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 42%;
-    transform: translate(0,-30%);
-
-    z-index: 0;
+    margin-right: 5px;
   }
+
 
   .container{
     padding: 10px 50px;
