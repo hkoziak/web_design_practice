@@ -15,7 +15,6 @@
     background: transparent;
     z-index: 10;
 
-    padding: 25px 50px 25px 50px;
   }
 
   #header #nav{
@@ -270,4 +269,8 @@ footer h3{
     transform: translate(0,-30%);
 
     z-index: 0;
+  }
+
+  .container{
+    padding: 10px 50px;
   }
