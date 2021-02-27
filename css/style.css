@@ -173,14 +173,20 @@
   }
 
   #gallery ul li{
-    display: inline-block;
-    width: 25%;
-    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
   }
 
   #gallery img{
-      width: 120%;
-      height: auto;
+    height: 100%;
+    width: 120%;
+  }
+
+  .gallery_ul{
+    display: flex;
+    justify-content: center;
   }
 
   #reviews h2{
