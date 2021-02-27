@@ -7,84 +7,18 @@
     justify-content: center;
   }
 
-    .article_container p{
+  .article_container p{
     color: #FFF;
     font-size: 1em;
+    }
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #full_rich_aroma h2{
-    color: #FFF;
-    font-size: 7em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #full_rich_aroma p{
-    color: #FFF;
-    font-size: 1em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #full_rich_aroma{
-    padding: 10px 5%;
-  }
-  
-  #unique_flavor h2{
-    color: #FFF;
-    font-size: 7.5em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #unique_flavor p{
-    color: #FFF;
-    font-size: 1em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #unique_flavor{
-    padding: 10px 5%;
-  }
-#strong_coffee h2{
-    color: #FFF;
-    font-size: 7em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #strong_coffee p{
-    color: #FFF;
-    font-size: 1em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #strong_coffee{
-    padding: 10px 5%;
-  }
+.article_container{
+   padding: 10px 5%;
+}
 
   .leftTextWrap {
     float: left;
     margin: 10px;
-    clear: right;
   }
 
   .rightTextWrap {
